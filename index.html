@@ -2,24 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>好用APP</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="img/WishesMan.png">
 </head>
 <body>
     <div class="header">
         <span><a href=""><img src="img/logo.png" alt="" class="logo"></a></span>
-        <ul>
-            <li><a href="#">關於我們</a></li>
-            <div class="border"></div>
-            <li><a href="#">常見問題</a></li>
-            <div class="border"></div>
-            <li><a href="#">許願上架</a></li>
-            <li><a href=""><img src="img/RegisterBlue.png" alt=""></a></li>
-            <li><a href=""><img src="img/LoginWhite.png" alt=""></a></li>
+        <ul class="desktop">
+            <li class="desktop"><a href="#">關於我們</a></li>
+            <div class="border desktop"></div>
+            <li class="desktop"><a href="#">常見問題</a></li>
+            <div class="border desktop"></div>
+            <li class="desktop"><a href="#">許願上架</a></li>
+            <li class="desktop"><a href=""><img src="img/RegisterBlue.png" alt=""></a></li>
+            <li class="desktop"><a href=""><img src="img/LoginWhite.png" alt=""></a></li>
+        </ul>
+      
+        <div class="mobileList">
+        <label for="burger"><img src="img/burger.png" alt="" class="burgerIcon"></label>
+        <input type="checkbox" id="burger">
+        <ul class="mobile">
+
+            <li class="mobile"><a href="#"><img src="img/RegisterBlue.png" alt=""></a></li>
+            <li class="mobile"><a href="#"><img src="img/LoginWhite.png" alt=""></a></li>
         </ul>
     </div>
+</div> 
     <div class="wrap">
         <div class="title">
             <div class="titleWord">
@@ -75,6 +86,7 @@
             <li><a href="#">許願上架</a></li>
         </ul>
     </div>
+
     <script src="js/index.js"></script>
 </body>
 </html>
